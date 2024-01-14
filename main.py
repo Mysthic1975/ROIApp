@@ -6,7 +6,7 @@ from tkinter import ttk
 class ROIApp:
     def __init__(self, master):
         self.master = master
-        master.title("Finanzrechner")
+        master.title("Kapitalrendite")
 
         # Label und Entry für Investition
         self.label = tk.Label(master, text="Investition:")
